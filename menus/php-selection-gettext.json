@@ -2,29 +2,11 @@
   "context-menu": {
     "atom-text-editor": [
       {
-        "label": "Toggle php-selection-gettext",
-        "command": "php-selection-gettext:toggle"
-      },
-      {
         "label": "Wrap selection into PHP Translate",
         "command": "php-selection-gettext:wrapSelection"
       }
     ]
   },
   "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "php-selection-gettext",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "php-selection-gettext:toggle"
-            }
-          ]
-        }
-      ]
-    }
   ]
 }
