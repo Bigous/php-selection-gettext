@@ -1,0 +1,18 @@
+{
+  "name": "php-selection-gettext",
+  "main": "./lib/php-selection-gettext",
+  "version": "0.1.0",
+  "description": "Get the selected text and wrap it into <?php echo _(\"Selected Text\") ?>",
+  "keywords": [
+  ],
+  "activationHooks": [
+    "language-php:grammar-used"
+  ],
+  "repository": "https://github.com/Bigous/php-selection-gettext",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+  }
+}
