@@ -4,6 +4,10 @@
       {
         "label": "Toggle php-selection-gettext",
         "command": "php-selection-gettext:toggle"
+      },
+      {
+        "label": "Wrap selection into PHP Translate",
+        "command": "php-selection-gettext:wrapSelection"
       }
     ]
   },
